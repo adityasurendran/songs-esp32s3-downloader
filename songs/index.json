@@ -1,5 +1,166 @@
 {
-  "updated_utc": "2025-08-17T22:23:44Z",
+  "updated_utc": "2025-08-17T22:45:55Z",
   "base_url": "https://raw.githubusercontent.com/adityasurendran/songs-esp32s3-downloader/main/songs/",
-  "tracks": []
+  "tracks": [
+    {
+      "name": "01 - Think Music India - Pottala Muttaye ｜ Thalaivan Thalaivii ｜ Vijay Sethupathi,Nithya Menen ｜Pandiraaj ｜Santhosh Narayanan - sWT7S6T0Qzw.mp3",
+      "title": "Pottala Muttaye | Thalaivan Thalaivii | Vijay Sethupathi,Nithya Menen |Pandiraaj |Santhosh Narayanan",
+      "artist": "Think Music India",
+      "bytes": 4982079,
+      "duration_s": 257,
+      "sha256": "1b224c14f5053169a39e09a71e87f034f4a4e1d01f0b2f83427dd003bf468f11"
+    },
+    {
+      "name": "02 - T-Series - ONE THOUSAND MILES (Official Video)： Yo Yo Honey Singh ｜ Mandy Takhar ｜ Desi Kalakaar ｜Bhushan Kumar - EWRBHho2b_E.mp3",
+      "title": "ONE THOUSAND MILES (Official Video): Yo Yo Honey Singh | Mandy Takhar | Desi Kalakaar |Bhushan Kumar",
+      "artist": "T-Series",
+      "bytes": 7150782,
+      "duration_s": 395,
+      "sha256": "5794e197b87449b203b4f874e69f2fdffe095c0f336fac9540398684bef40ae2"
+    },
+    {
+      "name": "03 - Guru Randhawa - GURU RANDHAWA - ＂AZUL＂  MV - vB0V3iCSzQw.mp3",
+      "title": "GURU RANDHAWA - \"AZUL\"  MV",
+      "artist": "Guru Randhawa",
+      "bytes": 3710763,
+      "duration_s": 151,
+      "sha256": "4ac9abaa1bf4d75aa92ca10d3df8ba816120ff4708d97323503e1f7076626083"
+    },
+    {
+      "name": "04 - YRF - Janaab-e-Aali Song Teaser ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam, Sachet Tandon, Saaj Bhatt, Amitabh - XBfSJ9KFQSg.mp3",
+      "title": "Janaab-e-Aali Song Teaser | WAR 2 | Hrithik Roshan, NTR | Pritam, Sachet Tandon, Saaj Bhatt, Amitabh",
+      "artist": "YRF",
+      "bytes": 2189815,
+      "duration_s": 35,
+      "sha256": "e1acda79f4d1ec0a68dd7cc75155903ab797a3c15d2ceb2b17d8db0a69c7ab3a"
+    },
+    {
+      "name": "05 - Sony Music South - They Call Him OG - Firestorm Lyric Video ｜ Pawan Kalyan ｜ Sujeeth ｜ Thaman S ｜ DVV Danayya - FbXOsVByKmk.mp3",
+      "title": "They Call Him OG - Firestorm Lyric Video | Pawan Kalyan | Sujeeth | Thaman S | DVV Danayya",
+      "artist": "Sony Music South",
+      "bytes": 5642106,
+      "duration_s": 245,
+      "sha256": "ea7c225c15c0fc96902339f50528da9aad5174c67af0868be959ebb0c3b8284f"
+    },
+    {
+      "name": "06 - Aditya Music - Viral Vayyari Full Video Song ｜ Junior Movie ｜ Kireeti, Sreeleela ｜ Radha Krishna ｜ Devi Sri Prasad - c2nHxn2P5EU.mp3",
+      "title": "Viral Vayyari Full Video Song | Junior Movie | Kireeti, Sreeleela | Radha Krishna | Devi Sri Prasad",
+      "artist": "Aditya Music",
+      "bytes": 6030787,
+      "duration_s": 282,
+      "sha256": "6991fbdf3ed33b224fd666d342f71d4b4383e1c26a84ce28e3e095a586b241ab"
+    },
+    {
+      "name": "07 - T-Series - Oh Mama! TETEMA (Song) ｜ Rayvanny, Nora Fatehi ｜ Shreya Ghoshal, Vishal Mishra, Sanjoy ｜ Bhushan K - ge_UgErt4yo.mp3",
+      "title": "Oh Mama! TETEMA (Song) | Rayvanny, Nora Fatehi | Shreya Ghoshal, Vishal Mishra, Sanjoy | Bhushan K",
+      "artist": "T-Series",
+      "bytes": 4652235,
+      "duration_s": 195,
+      "sha256": "d777512f9ff8d9e96ee29259840fa6f0a39a5f5ef83815efdbe083deaa7c17ec"
+    },
+    {
+      "name": "08 - YRF - Aavan Jaavan Song ｜ WAR 2 ｜ Hrithik Roshan, Kiara Advani ｜ Pritam, Arijit Singh, Nikhita ｜ Amitabh B - enjkcCdAlXc.mp3",
+      "title": "Aavan Jaavan Song | WAR 2 | Hrithik Roshan, Kiara Advani | Pritam, Arijit Singh, Nikhita | Amitabh B",
+      "artist": "YRF",
+      "bytes": 5055255,
+      "duration_s": 239,
+      "sha256": "cfd567f242195c06c990f2e15eb96a207400f3adf769b0dc87e331f0ffcec7eb"
+    },
+    {
+      "name": "09 - Universal Music India - Bheegi Saree - Param Sundari ｜ Sidharth, Janhvi ｜ Sachin-Jigar, Adnan Sami, Shreya Ghoshal, Amitabh - Aa2ZpTBmzlw.mp3",
+      "title": "Bheegi Saree - Param Sundari | Sidharth, Janhvi | Sachin-Jigar, Adnan Sami, Shreya Ghoshal, Amitabh",
+      "artist": "Universal Music India",
+      "bytes": 3182419,
+      "duration_s": 176,
+      "sha256": "3cbdf33f7e9e1db61f1a11c41b9457c179ea67e4ec67dda69d10d510e15c2337"
+    },
+    {
+      "name": "10 - Bollywood Junction - Jalwa Jalwa - Aye Watan Aye Watan｜ Independence Day Desh Bhakti Song ｜ Hindustan Ki Kasam ｜15 August - 98OQf963hLc.mp3",
+      "title": "Jalwa Jalwa - Aye Watan Aye Watan| Independence Day Desh Bhakti Song | Hindustan Ki Kasam |15 August",
+      "artist": "Bollywood Junction",
+      "bytes": 5866200,
+      "duration_s": 306,
+      "sha256": "4e4d1819ba27e7d24d34da5641aa2d09fb2833ee97f31504e788443de91f8c4e"
+    },
+    {
+      "name": "11 - seventyskye - A.R. Rahman - Maa Tujhe Salaam (Lyrics) Vande Mataram - tW3n8r7BxTY.mp3",
+      "title": "A.R. Rahman - Maa Tujhe Salaam (Lyrics) Vande Mataram",
+      "artist": "seventyskye",
+      "bytes": 7521368,
+      "duration_s": 375,
+      "sha256": "4feb4fe0c19d6fee94fbc69e3a2933c31b00c36f1d9576606958d32efb530c08"
+    },
+    {
+      "name": "12 - Bollywood Melodies - Har Karam Apna Karenge ｜ Dil Diya Hai Jaan Bhi Denge ｜ Hindi Desh Bhakti Song ｜ Karma (1986) - CdM7bsa4m6E.mp3",
+      "title": "Har Karam Apna Karenge | Dil Diya Hai Jaan Bhi Denge | Hindi Desh Bhakti Song | Karma (1986)",
+      "artist": "Bollywood Melodies",
+      "bytes": 6774499,
+      "duration_s": 360,
+      "sha256": "fca21b89f9d5a2b907a7b0ce799494752011448536db3d7d152f925f104dbf52"
+    },
+    {
+      "name": "13 - Real Music World - #video-जन्मदिन ह कन्हैया के ｜ #Tuntun Yadav ｜ Janmdin H Kanhaiyo Ke ｜  Janmashtami Special Song 2025 - TwGWwG_4pMM.mp3",
+      "title": "#video-जन्मदिन ह कन्हैया के | #Tuntun Yadav | Janmdin H Kanhaiyo Ke |  Janmashtami Special Song 2025",
+      "artist": "Real Music World",
+      "bytes": 4778899,
+      "duration_s": 178,
+      "sha256": "eccc292b81f231b4f3d073689d31f9c36c1c7c1ec505686f4b72d9ecd427e48b"
+    },
+    {
+      "name": "14 - One Take Worldwide - 2 Duni 4 (Official Video) ｜ R Nait ｜ Gurlez Akhtar ｜ Latest Punjabi Song 2025 - p3ICY8aj8s8.mp3",
+      "title": "2 Duni 4 (Official Video) | R Nait | Gurlez Akhtar | Latest Punjabi Song 2025",
+      "artist": "One Take Worldwide",
+      "bytes": 5647288,
+      "duration_s": 226,
+      "sha256": "f3f82298c4a559a64b71673307a525ce40d2e3345ddb883369268dadf9793bcf"
+    },
+    {
+      "name": "15 - Universal Music India - Pardesiya - Param Sundari ｜ Sidharth M, Janhvi K ｜ Sachin-Jigar, Sonu Nigam, Krishnakali, Amitabh B - N4wK3NtVRT0.mp3",
+      "title": "Pardesiya - Param Sundari | Sidharth M, Janhvi K | Sachin-Jigar, Sonu Nigam, Krishnakali, Amitabh B",
+      "artist": "Universal Music India",
+      "bytes": 3166708,
+      "duration_s": 177,
+      "sha256": "586fccff36df80c6dca8d357d37275e5940b51222c7fe9ec5c7c00c629f0a9a0"
+    },
+    {
+      "name": "16 - T-Series Bollywood Classics - Mera Mulk Mera Desh ｜ Diljale ｜ Kumar Sanu, Aditya Narayan ｜ Javed Akhtar ｜Ajay Devgn, Sonali Bendre - 9kWz9Y-2K98.mp3",
+      "title": "Mera Mulk Mera Desh | Diljale | Kumar Sanu, Aditya Narayan | Javed Akhtar |Ajay Devgn, Sonali Bendre",
+      "artist": "T-Series Bollywood Classics",
+      "bytes": 6440479,
+      "duration_s": 346,
+      "sha256": "3543f66c0a57217c85660d8a101a970fc15dc5e8fe189ad75a6a1512b8756aa2"
+    },
+    {
+      "name": "17 - Think Music Telugu - Om Namo Bhagavate Vasudevaya Lyrical Video-Telugu ｜ Mahavatar Narsimha ｜ Hombale Films ｜ Sam CS - Hn9VoVh0vvM.mp3",
+      "title": "Om Namo Bhagavate Vasudevaya Lyrical Video-Telugu | Mahavatar Narsimha | Hombale Films | Sam CS",
+      "artist": "Think Music Telugu",
+      "bytes": 4348303,
+      "duration_s": 222,
+      "sha256": "966a42f4014de106aa765511c57ce60f836ecf6a5d43f0c68998cafd448f7ac7"
+    },
+    {
+      "name": "18 - Madhu Ke Geet - #Video Krishna Janam Sohar geet-कृष्ण जन्म सोहर गीत｜एक फूल फूले है गोकुला त दूसर｜Lokgeet｜ कृष्णजन्म - 9VU2789zMkk.mp3",
+      "title": "#Video Krishna Janam Sohar geet-कृष्ण जन्म सोहर गीत|एक फूल फूले है गोकुला त दूसर|Lokgeet| कृष्णजन्म",
+      "artist": "Madhu Ke Geet",
+      "bytes": 14954275,
+      "duration_s": 836,
+      "sha256": "24685191a2248d45e75e876b9fe8ccaac6348dd02f0af4b1626e8f26a96cc915"
+    },
+    {
+      "name": "19 - Mridul Bhakti - Kanhaiya Janm Sohar - Manoj Tiwari 'Mridul' ｜ Krishna Janmashtami ｜ Krishna Bhajan ｜ Mridul Bhakti - wdk2oUU4o-E.mp3",
+      "title": "Kanhaiya Janm Sohar - Manoj Tiwari 'Mridul' | Krishna Janmashtami | Krishna Bhajan | Mridul Bhakti",
+      "artist": "Mridul Bhakti",
+      "bytes": 7614184,
+      "duration_s": 346,
+      "sha256": "ccf2c19d9b9ebe03e3f7079fa505c8ed3763f65574104585cc5cc70e78a420aa"
+    },
+    {
+      "name": "20 - YRF Telugu - Salam Anali Song Teaser ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam ｜ Nakash Aziz, Yazin Nizar ｜ Krishna - 08rOw8X9O5Y.mp3",
+      "title": "Salam Anali Song Teaser | WAR 2 | Hrithik Roshan, NTR | Pritam | Nakash Aziz, Yazin Nizar | Krishna",
+      "artist": "YRF Telugu",
+      "bytes": 2162228,
+      "duration_s": 35,
+      "sha256": "7a654d4dc26a227d27731a20ad9e4af221eea6c3ad68abb035eb8d71aafb2d3b"
+    }
+  ]
 }
