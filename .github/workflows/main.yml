@@ -1,0 +1,118 @@
+name: Daily Songs (Tamil-style, commit to repo)
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # daily 04:00 UTC
+  workflow_dispatch:
+    inputs:
+      playlist_url:
+        description: "YouTube playlist URL (optional override)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    env:
+      PLAYLIST_URL: ${{ github.event.inputs.playlist_url || vars.PLAYLIST_URL || secrets.PLAYLIST_URL }}
+      MAX_TRACKS: "20"
+      SONG_DIR: "songs"
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Check playlist URL
+        run: |
+          if [ -z "$PLAYLIST_URL" ]; then
+            echo "ERROR: Set PLAYLIST_URL as a repo variable/secret or pass it when running the workflow."
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install deps (yt-dlp, ffmpeg, mutagen)
+        run: |
+          python -m pip install --upgrade pip
+          pip install yt-dlp mutagen
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Clean old songs (overwrite policy)
+        run: |
+          git rm -r --quiet "$SONG_DIR" || true
+          rm -rf "$SONG_DIR"
+          mkdir -p "$SONG_DIR"
+
+      - name: Download up to ${{ env.MAX_TRACKS }} tracks
+        run: |
+          yt-dlp \
+            --playlist-end "$MAX_TRACKS" \
+            -x --audio-format mp3 \
+            --embed-metadata --embed-thumbnail \
+            --output "$SONG_DIR/%(playlist_index)02d - %(artist,channel)s - %(title)s - %(id)s.%(ext)s" \
+            "$PLAYLIST_URL"
+
+      - name: Build index.json and list.txt
+        shell: python
+        run: |
+          import os, json, hashlib, subprocess, sys, glob
+          from mutagen.mp3 import MP3
+          from mutagen.easyid3 import EasyID3
+
+          song_dir = os.environ.get("SONG_DIR","songs")
+          repo     = os.environ.get("GITHUB_REPOSITORY","owner/repo")
+          branch   = os.environ.get("GITHUB_REF_NAME","main")
+          base_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{song_dir}/"
+
+          def sha256sum(p):
+            h = hashlib.sha256()
+            with open(p,"rb") as f:
+              for chunk in iter(lambda: f.read(1024*1024), b""):
+                h.update(chunk)
+            return h.hexdigest()
+
+          files = sorted(glob.glob(os.path.join(song_dir,"*.mp3")))
+          tracks = []
+          for f in files:
+            try:
+              audio = MP3(f)
+              tags  = EasyID3(f)
+            except Exception:
+              audio, tags = MP3(f), {}
+            title  = (tags.get("title") or [""])[0] or os.path.splitext(os.path.basename(f))[0]
+            artist = (tags.get("artist") or [""])[0]
+            size   = os.path.getsize(f)
+            dur    = int(audio.info.length) if audio.info else None
+            tracks.append({
+              "name": os.path.basename(f),
+              "title": title,
+              "artist": artist,
+              "bytes": size,
+              "duration_s": dur,
+              "sha256": sha256sum(f)
+            })
+
+          manifest = {
+            "updated_utc": subprocess.check_output(["date","-u","+%Y-%m-%dT%H:%M:%SZ"]).decode().strip(),
+            "base_url": base_url,
+            "tracks": tracks
+          }
+          with open(os.path.join(song_dir,"index.json"),"w",encoding="utf-8") as w:
+            json.dump(manifest,w,ensure_ascii=False,indent=2)
+
+          with open(os.path.join(song_dir,"list.txt"),"w",encoding="utf-8") as w:
+            for f in files:
+              w.write(os.path.basename(f) + "\n")
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add "$SONG_DIR/"
+          git commit -m "🔁 Daily songs update ($(date -u +%F))" || echo "No changes to commit"
+          git push
