@@ -1,4 +1,4 @@
-name: Daily Songs (Tamil-style, commit to repo)
+name: Daily Songs (commit to repo)
 
 on:
   schedule:
@@ -19,6 +19,9 @@ jobs:
       PLAYLIST_URL: ${{ github.event.inputs.playlist_url || vars.PLAYLIST_URL || secrets.PLAYLIST_URL }}
       MAX_TRACKS: "20"
       SONG_DIR: "songs"
+      # Add this secret if you hit bot/consent blocks:
+      YT_COOKIES: ${{ secrets.YT_COOKIES }}
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -42,6 +45,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
+      - name: Prepare cookies (optional)
+        if: ${{ env.YT_COOKIES != '' }}
+        run: |
+          printf '%s' "${YT_COOKIES}" > cookies.txt
+          echo "COOKIE_FLAG=--cookies cookies.txt" >> $GITHUB_ENV
+
       - name: Clean old songs (overwrite policy)
         run: |
           git rm -r --quiet "$SONG_DIR" || true
@@ -49,18 +58,22 @@ jobs:
           mkdir -p "$SONG_DIR"
 
       - name: Download up to ${{ env.MAX_TRACKS }} tracks
+        # -i = ignore errors & keep going; extractor-args often avoids bot checks
         run: |
           yt-dlp \
+            ${COOKIE_FLAG:-} \
             --playlist-end "$MAX_TRACKS" \
             -x --audio-format mp3 \
             --embed-metadata --embed-thumbnail \
+            --extractor-args "youtube:player_client=android" \
+            -i \
             --output "$SONG_DIR/%(playlist_index)02d - %(artist,channel)s - %(title)s - %(id)s.%(ext)s" \
             "$PLAYLIST_URL"
 
       - name: Build index.json and list.txt
         shell: python
         run: |
-          import os, json, hashlib, subprocess, sys, glob
+          import os, json, hashlib, subprocess, glob
           from mutagen.mp3 import MP3
           from mutagen.easyid3 import EasyID3
 
@@ -102,17 +115,5 @@ jobs:
             "base_url": base_url,
             "tracks": tracks
           }
-          with open(os.path.join(song_dir,"index.json"),"w",encoding="utf-8") as w:
-            json.dump(manifest,w,ensure_ascii=False,indent=2)
-
-          with open(os.path.join(song_dir,"list.txt"),"w",encoding="utf-8") as w:
-            for f in files:
-              w.write(os.path.basename(f) + "\n")
-
-      - name: Commit & push
-        run: |
-          git config user.name  "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add "$SONG_DIR/"
-          git commit -m "🔁 Daily songs update ($(date -u +%F))" || echo "No changes to commit"
-          git push
+          os.makedirs(song_dir, exist_ok=True)
+          with open(os.pa
