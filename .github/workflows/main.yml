@@ -19,7 +19,6 @@ jobs:
       PLAYLIST_URL: ${{ github.event.inputs.playlist_url || vars.PLAYLIST_URL || secrets.PLAYLIST_URL }}
       MAX_TRACKS: "20"
       SONG_DIR: "songs"
-      # Add this secret if you hit bot/consent blocks:
       YT_COOKIES: ${{ secrets.YT_COOKIES }}
 
     steps:
@@ -45,30 +44,54 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      - name: Prepare cookies (optional)
-        if: ${{ env.YT_COOKIES != '' }}
+      - name: Prepare cookies & client choice
         run: |
-          printf '%s' "${YT_COOKIES}" > cookies.txt
-          echo "COOKIE_FLAG=--cookies cookies.txt" >> $GITHUB_ENV
+          if [ -n "${YT_COOKIES}" ]; then
+            printf '%s' "${YT_COOKIES}" > cookies.txt
+            echo 'COOKIE_FLAG=--cookies cookies.txt' >> $GITHUB_ENV
+            echo 'EXTRACTOR_ARGS=--extractor-args youtube:player_client=web' >> $GITHUB_ENV
+          else
+            # No cookies → try android client to dodge consent walls
+            echo 'EXTRACTOR_ARGS=--extractor-args youtube:player_client=android' >> $GITHUB_ENV
+          fi
 
       - name: Clean old songs (overwrite policy)
         run: |
           git rm -r --quiet "$SONG_DIR" || true
           rm -rf "$SONG_DIR"
-          mkdir -p "$SONG_DIR"
+          mkdir -p "$SONG_DIR" work
 
-      - name: Download up to ${{ env.MAX_TRACKS }} tracks
-        # -i = ignore errors & keep going; extractor-args often avoids bot checks
+      - name: Download up to ${{ env.MAX_TRACKS }} tracks (pass 1)
         run: |
           yt-dlp \
             ${COOKIE_FLAG:-} \
+            ${EXTRACTOR_ARGS:-} \
             --playlist-end "$MAX_TRACKS" \
+            -f "bestaudio/best" \
             -x --audio-format mp3 \
             --embed-metadata --embed-thumbnail \
-            --extractor-args "youtube:player_client=android" \
-            -i \
+            --download-archive work/downloaded.txt \
+            --ignore-errors \
+            --no-continue --no-part \
+            --force-ipv4 \
             --output "$SONG_DIR/%(playlist_index)02d - %(artist,channel)s - %(title)s - %(id)s.%(ext)s" \
-            "$PLAYLIST_URL"
+            "$PLAYLIST_URL" || true
+
+      - name: Fallback (pass 2 with tv_embedded client)
+        run: |
+          yt-dlp \
+            ${COOKIE_FLAG:-} \
+            --extractor-args youtube:player_client=tv_embedded \
+            --playlist-end "$MAX_TRACKS" \
+            -f "bestaudio/best" \
+            -x --audio-format mp3 \
+            --embed-metadata --embed-thumbnail \
+            --download-archive work/downloaded.txt \
+            --ignore-errors \
+            --no-continue --no-part \
+            --force-ipv4 \
+            --output "$SONG_DIR/%(playlist_index)02d - %(artist,channel)s - %(title)s - %(id)s.%(ext)s" \
+            "$PLAYLIST_URL" || true
 
       - name: Build index.json and list.txt
         shell: python
@@ -83,6 +106,7 @@ jobs:
           base_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{song_dir}/"
 
           def sha256sum(p):
+            import hashlib
             h = hashlib.sha256()
             with open(p,"rb") as f:
               for chunk in iter(lambda: f.read(1024*1024), b""):
@@ -116,4 +140,22 @@ jobs:
             "tracks": tracks
           }
           os.makedirs(song_dir, exist_ok=True)
-          with open(os.pa
+          with open(os.path.join(song_dir,"index.json"),"w",encoding="utf-8") as w:
+            json.dump(manifest,w,ensure_ascii=False,indent=2)
+
+          with open(os.path.join(song_dir,"list.txt"),"w",encoding="utf-8") as w:
+            for f in files:
+              w.write(os.path.basename(f) + "\n")
+
+      - name: Quick report
+        run: |
+          echo "Downloaded MP3 count:"
+          ls -1v "$SONG_DIR"/*.mp3 2>/dev/null | wc -l || true
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add "$SONG_DIR/"
+          git commit -m "🔁 Daily songs update ($(date -u +%F))" || echo "No changes to commit"
+          git push
