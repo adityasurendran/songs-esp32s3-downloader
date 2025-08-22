@@ -1,30 +1,30 @@
 {
-  "updated_utc": "2025-08-21T04:24:48Z",
+  "updated_utc": "2025-08-22T04:23:18Z",
   "base_url": "https://raw.githubusercontent.com/adityasurendran/songs-esp32s3-downloader/main/songs/",
   "tracks": [
     {
-      "name": "01 - Think Music India - Pottala Muttaye ｜ Thalaivan Thalaivii ｜ Vijay Sethupathi,Nithya Menen ｜Pandiraaj ｜Santhosh Narayanan - sWT7S6T0Qzw.mp3",
+      "name": "01 - YRF - Janaab-e-Aali ｜ Full Song ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam, Sachet Tandon, Saaj Bhatt, Amitabh - 9l5QY7BJmHQ.mp3",
+      "title": "Janaab-e-Aali | Full Song | WAR 2 | Hrithik Roshan, NTR | Pritam, Sachet Tandon, Saaj Bhatt, Amitabh",
+      "artist": "YRF",
+      "bytes": 4950034,
+      "duration_s": 216,
+      "sha256": "733d75a30ff8c185e466b9bf1ce3c3fc37b6d573bde1e2b4d8c753783ba1fe3f"
+    },
+    {
+      "name": "02 - T-Series - Pyaar Mein Hain Hum (Video Song)： Pawan Singh ｜ Zareen Khan ｜ Payal Dev ｜ Kunaal Vermaa ｜ Bhushan K - TKyDCwRQMLg.mp3",
+      "title": "Pyaar Mein Hain Hum (Video Song): Pawan Singh | Zareen Khan | Payal Dev | Kunaal Vermaa | Bhushan K",
+      "artist": "T-Series",
+      "bytes": 5219321,
+      "duration_s": 217,
+      "sha256": "c20b3322b0157804fa0263b92f13895163866e0abb9cc8e0e3ace3d7b66c687c"
+    },
+    {
+      "name": "03 - Think Music India - Pottala Muttaye ｜ Thalaivan Thalaivii ｜ Vijay Sethupathi,Nithya Menen ｜Pandiraaj ｜Santhosh Narayanan - sWT7S6T0Qzw.mp3",
       "title": "Pottala Muttaye | Thalaivan Thalaivii | Vijay Sethupathi,Nithya Menen |Pandiraaj |Santhosh Narayanan",
       "artist": "Think Music India",
       "bytes": 4982079,
       "duration_s": 257,
       "sha256": "1b224c14f5053169a39e09a71e87f034f4a4e1d01f0b2f83427dd003bf468f11"
-    },
-    {
-      "name": "02 - YRF - Janaab-e-Aali ｜ Full Song ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam, Sachet Tandon, Saaj Bhatt, Amitabh - 9l5QY7BJmHQ.mp3",
-      "title": "Janaab-e-Aali | Full Song | WAR 2 | Hrithik Roshan, NTR | Pritam, Sachet Tandon, Saaj Bhatt, Amitabh",
-      "artist": "YRF",
-      "bytes": 4969705,
-      "duration_s": 216,
-      "sha256": "55bbe298f4d150e6de2813cfbe2e8ed00b20e1f3992d1be66b254638fcb8a34f"
-    },
-    {
-      "name": "03 - T-Series - Pyaar Mein Hain Hum (Video Song)： Pawan Singh ｜ Zareen Khan ｜ Payal Dev ｜ Kunaal Vermaa ｜ Bhushan K - TKyDCwRQMLg.mp3",
-      "title": "Pyaar Mein Hain Hum (Video Song): Pawan Singh | Zareen Khan | Payal Dev | Kunaal Vermaa | Bhushan K",
-      "artist": "T-Series",
-      "bytes": 5219209,
-      "duration_s": 217,
-      "sha256": "3ff0ee04b7d5802c6b4a745e4845e9846c7fef7d7065822afb7d63870b3e2d9f"
     },
     {
       "name": "04 - Guru Randhawa - GURU RANDHAWA - ＂AZUL＂  MV - vB0V3iCSzQw.mp3",
@@ -43,28 +43,28 @@
       "sha256": "019743313d0835fcfb3299fd72929b87975715c9f3810908595980b09b5decc5"
     },
     {
-      "name": "06 - Aditya Music - Viral Vayyari Full Video Song ｜ Junior Movie ｜ Kireeti, Sreeleela ｜ Radha Krishna ｜ Devi Sri Prasad - c2nHxn2P5EU.mp3",
+      "name": "06 - T-Series - Baaghi 4： Guzaara (Song) ｜ Tiger Shroff, Harnaaz ｜ Josh Brar, Parampara, Kumaar ｜ Sajid N, A. Harsha - iMi-Cb8RisY.mp3",
+      "title": "Baaghi 4: Guzaara (Song) | Tiger Shroff, Harnaaz | Josh Brar, Parampara, Kumaar | Sajid N, A. Harsha",
+      "artist": "T-Series",
+      "bytes": 4646169,
+      "duration_s": 195,
+      "sha256": "398a493af9caca15e2efd55cf102013200f36e98a0a188b6a095774a8c5a4c54"
+    },
+    {
+      "name": "07 - Aashish Yadav Entertainment - #Video - कि हौ बचले गे - #Ashish Yadav & #Shweta Sargam का आ गया एक और ब्लास्ट गाना - #Magahi Song - u7DhinNA5mY.mp3",
+      "title": "#Video - कि हौ बचले गे - #Ashish Yadav & #Shweta Sargam का आ गया एक और ब्लास्ट गाना - #Magahi Song",
+      "artist": "Aashish Yadav Entertainment",
+      "bytes": 5757098,
+      "duration_s": 230,
+      "sha256": "d56ab5a65c8a7f6cbb5fbb8bf318e668b365f2be2af5b305109e307b2ff416df"
+    },
+    {
+      "name": "08 - Aditya Music - Viral Vayyari Full Video Song ｜ Junior Movie ｜ Kireeti, Sreeleela ｜ Radha Krishna ｜ Devi Sri Prasad - c2nHxn2P5EU.mp3",
       "title": "Viral Vayyari Full Video Song | Junior Movie | Kireeti, Sreeleela | Radha Krishna | Devi Sri Prasad",
       "artist": "Aditya Music",
       "bytes": 6030787,
       "duration_s": 282,
       "sha256": "6991fbdf3ed33b224fd666d342f71d4b4383e1c26a84ce28e3e095a586b241ab"
-    },
-    {
-      "name": "07 - YRF - Janaab-e-Aali Song Teaser ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam, Sachet Tandon, Saaj Bhatt, Amitabh - XBfSJ9KFQSg.mp3",
-      "title": "Janaab-e-Aali Song Teaser | WAR 2 | Hrithik Roshan, NTR | Pritam, Sachet Tandon, Saaj Bhatt, Amitabh",
-      "artist": "YRF",
-      "bytes": 2177736,
-      "duration_s": 35,
-      "sha256": "488aa93f3b62785ae48f97c718db0bb787d98d005f5f86dd9486b7aa756e3345"
-    },
-    {
-      "name": "08 - Sony Music South - They Call Him OG - Firestorm Lyric Video ｜ Pawan Kalyan ｜ Sujeeth ｜ Thaman S ｜ DVV Danayya - FbXOsVByKmk.mp3",
-      "title": "They Call Him OG - Firestorm Lyric Video | Pawan Kalyan | Sujeeth | Thaman S | DVV Danayya",
-      "artist": "Sony Music South",
-      "bytes": 5642106,
-      "duration_s": 245,
-      "sha256": "ea7c225c15c0fc96902339f50528da9aad5174c67af0868be959ebb0c3b8284f"
     },
     {
       "name": "09 - T-Series - Oh Mama! TETEMA (Song) ｜ Rayvanny, Nora Fatehi ｜ Shreya Ghoshal, Vishal Mishra, Sanjoy ｜ Bhushan K - ge_UgErt4yo.mp3",
@@ -75,31 +75,7 @@
       "sha256": "d777512f9ff8d9e96ee29259840fa6f0a39a5f5ef83815efdbe083deaa7c17ec"
     },
     {
-      "name": "10 - Aashish Yadav Entertainment - #Video - कि हौ बचले गे - #Ashish Yadav & #Shweta Sargam का आ गया एक और ब्लास्ट गाना - #Magahi Song - u7DhinNA5mY.mp3",
-      "title": "#Video - कि हौ बचले गे - #Ashish Yadav & #Shweta Sargam का आ गया एक और ब्लास्ट गाना - #Magahi Song",
-      "artist": "Aashish Yadav Entertainment",
-      "bytes": 5757098,
-      "duration_s": 230,
-      "sha256": "d56ab5a65c8a7f6cbb5fbb8bf318e668b365f2be2af5b305109e307b2ff416df"
-    },
-    {
-      "name": "11 - T-Series - Baaghi 4： Guzaara (Song) ｜ Tiger Shroff, Harnaaz ｜ Josh Brar, Parampara, Kumaar ｜ Sajid N, A. Harsha - iMi-Cb8RisY.mp3",
-      "title": "Baaghi 4: Guzaara (Song) | Tiger Shroff, Harnaaz | Josh Brar, Parampara, Kumaar | Sajid N, A. Harsha",
-      "artist": "T-Series",
-      "bytes": 4646169,
-      "duration_s": 195,
-      "sha256": "398a493af9caca15e2efd55cf102013200f36e98a0a188b6a095774a8c5a4c54"
-    },
-    {
-      "name": "12 - One Take Worldwide - 2 Duni 4 (Official Video) ｜ R Nait ｜ Gurlez Akhtar ｜ Latest Punjabi Song 2025 - p3ICY8aj8s8.mp3",
-      "title": "2 Duni 4 (Official Video) | R Nait | Gurlez Akhtar | Latest Punjabi Song 2025",
-      "artist": "One Take Worldwide",
-      "bytes": 5647288,
-      "duration_s": 226,
-      "sha256": "f3f82298c4a559a64b71673307a525ce40d2e3345ddb883369268dadf9793bcf"
-    },
-    {
-      "name": "13 - Bahubali Music World - #Video ｜ शराब से ख़राब ｜ #Tuntun_Yadav , #Goldi_Yadav ｜ Sharab Se Kharab ｜ New Bhojpuri Song - KerqjqgU-xI.mp3",
+      "name": "10 - Bahubali Music World - #Video ｜ शराब से ख़राब ｜ #Tuntun_Yadav , #Goldi_Yadav ｜ Sharab Se Kharab ｜ New Bhojpuri Song - KerqjqgU-xI.mp3",
       "title": "#Video | शराब से ख़राब | #Tuntun_Yadav , #Goldi_Yadav | Sharab Se Kharab | New Bhojpuri Song",
       "artist": "Bahubali Music World",
       "bytes": 5258155,
@@ -107,31 +83,47 @@
       "sha256": "8f0ba8cd2e3357157d2e7a04b44923017321950d8ef541a9a808e1fe12181559"
     },
     {
-      "name": "14 - Bollywood Junction - Jalwa Jalwa - Aye Watan Aye Watan｜ Independence Day Desh Bhakti Song ｜ Hindustan Ki Kasam ｜15 August - 98OQf963hLc.mp3",
-      "title": "Jalwa Jalwa - Aye Watan Aye Watan| Independence Day Desh Bhakti Song | Hindustan Ki Kasam |15 August",
-      "artist": "Bollywood Junction",
-      "bytes": 5866200,
-      "duration_s": 306,
-      "sha256": "4e4d1819ba27e7d24d34da5641aa2d09fb2833ee97f31504e788443de91f8c4e"
-    },
-    {
-      "name": "15 - YRF - Aavan Jaavan Song ｜ WAR 2 ｜ Hrithik Roshan, Kiara Advani ｜ Pritam, Arijit Singh, Nikhita ｜ Amitabh B - enjkcCdAlXc.mp3",
-      "title": "Aavan Jaavan Song | WAR 2 | Hrithik Roshan, Kiara Advani | Pritam, Arijit Singh, Nikhita | Amitabh B",
+      "name": "11 - YRF - Janaab-e-Aali Song Teaser ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam, Sachet Tandon, Saaj Bhatt, Amitabh - XBfSJ9KFQSg.mp3",
+      "title": "Janaab-e-Aali Song Teaser | WAR 2 | Hrithik Roshan, NTR | Pritam, Sachet Tandon, Saaj Bhatt, Amitabh",
       "artist": "YRF",
-      "bytes": 5073837,
-      "duration_s": 239,
-      "sha256": "0221fc21c617047b15d4e1b36eca8910babadce4f68b3f4384f18fdfa35cb905"
+      "bytes": 2184909,
+      "duration_s": 35,
+      "sha256": "a435288dfdbecc286cc06e25707bbd873ef59954512e2ad77edfdd57dcfd8f0c"
     },
     {
-      "name": "16 - GMJ - Global Music Junction - Bhojpuri - 4K Video - बीड़ी ｜ #Dinesh Lal Yadav (Nirahua) ｜ Aamrapali Dubey ｜ Bidi ｜ New Bhojpuri Song 2025 - e06eairG_VY.mp3",
+      "name": "12 - Sony Music South - They Call Him OG - Firestorm Lyric Video ｜ Pawan Kalyan ｜ Sujeeth ｜ Thaman S ｜ DVV Danayya - FbXOsVByKmk.mp3",
+      "title": "They Call Him OG - Firestorm Lyric Video | Pawan Kalyan | Sujeeth | Thaman S | DVV Danayya",
+      "artist": "Sony Music South",
+      "bytes": 5642106,
+      "duration_s": 245,
+      "sha256": "ea7c225c15c0fc96902339f50528da9aad5174c67af0868be959ebb0c3b8284f"
+    },
+    {
+      "name": "13 - Dhanda Nyoliwala - Dhanda Nyoliwala - Tension (Official Music Video) - bgGH0wcjUOA.mp3",
+      "title": "Dhanda Nyoliwala - Tension (Official Music Video)",
+      "artist": "Dhanda Nyoliwala",
+      "bytes": 4320565,
+      "duration_s": 193,
+      "sha256": "d60209317187adbf7d5d774ae6602d9b9c838f556b706aa631783401ca93a593"
+    },
+    {
+      "name": "14 - One Take Worldwide - 2 Duni 4 (Official Video) ｜ R Nait ｜ Gurlez Akhtar ｜ Latest Punjabi Song 2025 - p3ICY8aj8s8.mp3",
+      "title": "2 Duni 4 (Official Video) | R Nait | Gurlez Akhtar | Latest Punjabi Song 2025",
+      "artist": "One Take Worldwide",
+      "bytes": 5647288,
+      "duration_s": 226,
+      "sha256": "f3f82298c4a559a64b71673307a525ce40d2e3345ddb883369268dadf9793bcf"
+    },
+    {
+      "name": "15 - GMJ - Global Music Junction - Bhojpuri - 4K Video - बीड़ी ｜ #Dinesh Lal Yadav (Nirahua) ｜ Aamrapali Dubey ｜ Bidi ｜ New Bhojpuri Song 2025 - e06eairG_VY.mp3",
       "title": "4K Video - बीड़ी | #Dinesh Lal Yadav (Nirahua) | Aamrapali Dubey | Bidi | New Bhojpuri Song 2025",
       "artist": "GMJ - Global Music Junction - Bhojpuri",
-      "bytes": 6446634,
+      "bytes": 6309321,
       "duration_s": 306,
-      "sha256": "78254b4082f8bcb5338ccd2c9d3b86348deb73daa51eeb43166e5e2230cc458a"
+      "sha256": "02f25c9963fe9b9f5b27184a8560e8691e38264d35738db5ad6498a2276f0ee0"
     },
     {
-      "name": "17 - Ved Entertainment - #Video - Raushan Rohi New Song - गोली के बौछार - Srishti Bharti - Goli Ke Bauchhar - Rangdari Song - Zxyfe4w7Vj8.mp3",
+      "name": "16 - Ved Entertainment - #Video - Raushan Rohi New Song - गोली के बौछार - Srishti Bharti - Goli Ke Bauchhar - Rangdari Song - Zxyfe4w7Vj8.mp3",
       "title": "#Video - Raushan Rohi New Song - गोली के बौछार - Srishti Bharti - Goli Ke Bauchhar - Rangdari Song",
       "artist": "Ved Entertainment",
       "bytes": 6772963,
@@ -139,28 +131,36 @@
       "sha256": "f80048ed39e7f520ab98f8d819d1768faf4632ad025cdd2b4fdd99c4a7066633"
     },
     {
-      "name": "18 - Universal Music India - Bheegi Saree - Param Sundari ｜ Sidharth, Janhvi ｜ Sachin-Jigar, Adnan Sami, Shreya Ghoshal, Amitabh - Aa2ZpTBmzlw.mp3",
-      "title": "Bheegi Saree - Param Sundari | Sidharth, Janhvi | Sachin-Jigar, Adnan Sami, Shreya Ghoshal, Amitabh",
-      "artist": "Universal Music India",
-      "bytes": 3182419,
-      "duration_s": 176,
-      "sha256": "3cbdf33f7e9e1db61f1a11c41b9457c179ea67e4ec67dda69d10d510e15c2337"
+      "name": "17 - Mridul Bhakti - Kanhaiya Janm Sohar - Manoj Tiwari 'Mridul' ｜ Krishna Janmashtami ｜ Krishna Bhajan ｜ Mridul Bhakti - wdk2oUU4o-E.mp3",
+      "title": "Kanhaiya Janm Sohar - Manoj Tiwari 'Mridul' | Krishna Janmashtami | Krishna Bhajan | Mridul Bhakti",
+      "artist": "Mridul Bhakti",
+      "bytes": 7614184,
+      "duration_s": 346,
+      "sha256": "ccf2c19d9b9ebe03e3f7079fa505c8ed3763f65574104585cc5cc70e78a420aa"
     },
     {
-      "name": "19 - Raushan Rohi Entertainment - #Video ｜ #Raushan Rohi ｜ कलाकार VS रंगदार ｜ #Srishti Bharti ｜ #Tanya Tiwari ｜#Maghi #Rangdari Song - gdcuAmlg17g.mp3",
+      "name": "18 - Sandeep Surila - LANGUAGE PYAR KI (Official Video) Sandeep Surila ｜ Arvind Jangid ｜ Sakshi Dalal ｜ Haryanvi Song - vNz8t00ATyI.mp3",
+      "title": "LANGUAGE PYAR KI (Official Video) Sandeep Surila | Arvind Jangid | Sakshi Dalal | Haryanvi Song",
+      "artist": "Sandeep Surila",
+      "bytes": 4874221,
+      "duration_s": 214,
+      "sha256": "cb33cfa668e3f99486234a6f4ff54aab6c343ab178e8effbdaa61b542fbad29c"
+    },
+    {
+      "name": "19 - Bollywood Junction - Jalwa Jalwa - Aye Watan Aye Watan｜ Independence Day Desh Bhakti Song ｜ Hindustan Ki Kasam ｜15 August - 98OQf963hLc.mp3",
+      "title": "Jalwa Jalwa - Aye Watan Aye Watan| Independence Day Desh Bhakti Song | Hindustan Ki Kasam |15 August",
+      "artist": "Bollywood Junction",
+      "bytes": 5866200,
+      "duration_s": 306,
+      "sha256": "4e4d1819ba27e7d24d34da5641aa2d09fb2833ee97f31504e788443de91f8c4e"
+    },
+    {
+      "name": "20 - Raushan Rohi Entertainment - #Video ｜ #Raushan Rohi ｜ कलाकार VS रंगदार ｜ #Srishti Bharti ｜ #Tanya Tiwari ｜#Maghi #Rangdari Song - gdcuAmlg17g.mp3",
       "title": "#Video | #Raushan Rohi | कलाकार VS रंगदार | #Srishti Bharti | #Tanya Tiwari |#Maghi #Rangdari Song",
       "artist": "Raushan Rohi Entertainment",
       "bytes": 6303570,
       "duration_s": 272,
       "sha256": "5ce03721adbd46ee85edc444b772153f26b5a73a560fe262f5c4aa3346083792"
-    },
-    {
-      "name": "20 - Dhanda Nyoliwala - Dhanda Nyoliwala - Tension (Official Music Video) - bgGH0wcjUOA.mp3",
-      "title": "Dhanda Nyoliwala - Tension (Official Music Video)",
-      "artist": "Dhanda Nyoliwala",
-      "bytes": 4320565,
-      "duration_s": 193,
-      "sha256": "d60209317187adbf7d5d774ae6602d9b9c838f556b706aa631783401ca93a593"
     }
   ]
 }
