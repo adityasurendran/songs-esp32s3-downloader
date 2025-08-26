@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2025-08-25T04:29:50Z",
+  "updated_utc": "2025-08-26T04:24:31Z",
   "base_url": "https://raw.githubusercontent.com/adityasurendran/songs-esp32s3-downloader/main/songs/",
   "tracks": [
     {
-      "name": "01 - YRF - Janaab-e-Aali ｜ Full Song ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam, Sachet Tandon, Saaj Bhatt, Amitabh - 9l5QY7BJmHQ.mp3",
-      "title": "Janaab-e-Aali | Full Song | WAR 2 | Hrithik Roshan, NTR | Pritam, Sachet Tandon, Saaj Bhatt, Amitabh",
-      "artist": "YRF",
-      "bytes": 4952197,
-      "duration_s": 216,
-      "sha256": "3f695ddbc3105ecc806337800cc719ea45ea196d34dde73e1e1db71cca3a2ec0"
-    },
-    {
-      "name": "02 - Saregama Kannada - Idre Nemdiyaag Irbek - Lyrical ｜ The Devil ｜ Darshan ｜ Prakash Veer ｜ B Ajaneesh Loknath - LHC3zEeGsts.mp3",
+      "name": "01 - Saregama Kannada - Idre Nemdiyaag Irbek - Lyrical ｜ The Devil ｜ Darshan ｜ Prakash Veer ｜ B Ajaneesh Loknath - LHC3zEeGsts.mp3",
       "title": "Idre Nemdiyaag Irbek - Lyrical | The Devil | Darshan | Prakash Veer | B Ajaneesh Loknath",
       "artist": "Saregama Kannada",
       "bytes": 5086593,
       "duration_s": 260,
       "sha256": "f4a55112bf6472f300793ef6c8a1c7ad63ad30f94dcbff9725a2d4f4ec9fec18"
+    },
+    {
+      "name": "02 - YRF - Janaab-e-Aali ｜ Full Song ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam, Sachet Tandon, Saaj Bhatt, Amitabh - 9l5QY7BJmHQ.mp3",
+      "title": "Janaab-e-Aali | Full Song | WAR 2 | Hrithik Roshan, NTR | Pritam, Sachet Tandon, Saaj Bhatt, Amitabh",
+      "artist": "YRF",
+      "bytes": 4948047,
+      "duration_s": 216,
+      "sha256": "a565b759dc778775756012473f87983c1047e125956796f953e2a24ed0edc739"
     },
     {
       "name": "03 - Rehaan Records - For A Reason (Official Video) Karan Aujla ｜ Tania  ｜ Ikky ｜ Latest Punjabi Songs 2025 - -YlmnPh-6rE.mp3",
@@ -35,20 +35,20 @@
       "sha256": "1a9aad315b7e3d44bc37171b339cde54a0912029f64cc537e0f96eabef5a493d"
     },
     {
-      "name": "05 - YRF Telugu - Salam Anali ｜ Full Song ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam ｜ Nakash Aziz, Yazin Nizar ｜ Krishna - gim5p_kpKaM.mp3",
+      "name": "05 - Universal Music India - Danger - Param Sundari ｜ Sidharth M, Janhvi K ｜ Sachin-Jigar, Vishal Dadlani, Parvati M, Amitabh B - obBcRhl57Zg.mp3",
+      "title": "Danger - Param Sundari | Sidharth M, Janhvi K | Sachin-Jigar, Vishal Dadlani, Parvati M, Amitabh B",
+      "artist": "Universal Music India",
+      "bytes": 4571243,
+      "duration_s": 158,
+      "sha256": "b14e86d069cd0aecc5da457c9cbb02bd5c43ad8ad7222b6ce74662c1bebfc6f0"
+    },
+    {
+      "name": "06 - YRF Telugu - Salam Anali ｜ Full Song ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam ｜ Nakash Aziz, Yazin Nizar ｜ Krishna - gim5p_kpKaM.mp3",
       "title": "Salam Anali | Full Song | WAR 2 | Hrithik Roshan, NTR | Pritam | Nakash Aziz, Yazin Nizar | Krishna",
       "artist": "YRF Telugu",
       "bytes": 5147816,
       "duration_s": 216,
       "sha256": "acf4550bd4f1273e81e9d720dc9ef1af88f30bedb16d20dbdcd8ad6d24735854"
-    },
-    {
-      "name": "06 - Universal Music India - Danger - Param Sundari ｜ Sidharth M, Janhvi K ｜ Sachin-Jigar, Vishal Dadlani, Parvati M, Amitabh B - obBcRhl57Zg.mp3",
-      "title": "Danger - Param Sundari | Sidharth M, Janhvi K | Sachin-Jigar, Vishal Dadlani, Parvati M, Amitabh B",
-      "artist": "Universal Music India",
-      "bytes": 4354041,
-      "duration_s": 158,
-      "sha256": "ee35e8426f778aad473e199d9ffedb8748b18b84275631cdcc9fae7ac3dad927"
     },
     {
       "name": "07 - T-Series - Baaghi 4： Guzaara (Song) ｜ Tiger Shroff, Harnaaz ｜ Josh Brar, Parampara, Kumaar ｜ Sajid N, A. Harsha - iMi-Cb8RisY.mp3",
@@ -75,39 +75,15 @@
       "sha256": "8db59d5b3b9b183d1d77668a780f54ec90819430d2e62e9e3aaa749a29eb3cec"
     },
     {
-      "name": "10 - Think Music India - Pottala Muttaye ｜ Thalaivan Thalaivii ｜ Vijay Sethupathi,Nithya Menen ｜Pandiraaj ｜Santhosh Narayanan - sWT7S6T0Qzw.mp3",
-      "title": "Pottala Muttaye | Thalaivan Thalaivii | Vijay Sethupathi,Nithya Menen |Pandiraaj |Santhosh Narayanan",
-      "artist": "Think Music India",
-      "bytes": 4982079,
-      "duration_s": 257,
-      "sha256": "1b224c14f5053169a39e09a71e87f034f4a4e1d01f0b2f83427dd003bf468f11"
-    },
-    {
-      "name": "11 - Anand Audio - Bangle Bangari 4K Video Song ｜ EKKA ｜ Yuva Rajkumar ｜ Rohit Padaki ｜ Charan raj ｜ Sanjana Anand - K6wNzY5MIWs.mp3",
+      "name": "10 - Anand Audio - Bangle Bangari 4K Video Song ｜ EKKA ｜ Yuva Rajkumar ｜ Rohit Padaki ｜ Charan raj ｜ Sanjana Anand - K6wNzY5MIWs.mp3",
       "title": "Bangle Bangari 4K Video Song | EKKA | Yuva Rajkumar | Rohit Padaki | Charan raj | Sanjana Anand",
       "artist": "Anand Audio",
-      "bytes": 5233644,
-      "duration_s": 208,
-      "sha256": "88cce3a999bea7ab1882fb30935c1731b12d5ba0779b619c8a143c35b823c2be"
+      "bytes": 5277878,
+      "duration_s": 207,
+      "sha256": "d35a39ec2d91614c9620317914216cea9adb6575ca5ba4e085ca2d054c9d5a85"
     },
     {
-      "name": "12 - Guru Randhawa - GURU RANDHAWA - ＂AZUL＂  MV - vB0V3iCSzQw.mp3",
-      "title": "GURU RANDHAWA - \"AZUL\"  MV",
-      "artist": "Guru Randhawa",
-      "bytes": 3710763,
-      "duration_s": 151,
-      "sha256": "4ac9abaa1bf4d75aa92ca10d3df8ba816120ff4708d97323503e1f7076626083"
-    },
-    {
-      "name": "13 - Dhanda Nyoliwala - Dhanda Nyoliwala - Tension (Official Music Video) - bgGH0wcjUOA.mp3",
-      "title": "Dhanda Nyoliwala - Tension (Official Music Video)",
-      "artist": "Dhanda Nyoliwala",
-      "bytes": 4320565,
-      "duration_s": 193,
-      "sha256": "d60209317187adbf7d5d774ae6602d9b9c838f556b706aa631783401ca93a593"
-    },
-    {
-      "name": "14 - Trimurti Music World - #Mani Meraj ｜ Marne Ke Baad Pyar Hua ｜ Vannu D Great ｜ Shahbaz Khan ｜ Chand Jee ｜ New Sad Song - p4pPOJenKB4.mp3",
+      "name": "11 - Trimurti Music World - #Mani Meraj ｜ Marne Ke Baad Pyar Hua ｜ Vannu D Great ｜ Shahbaz Khan ｜ Chand Jee ｜ New Sad Song - p4pPOJenKB4.mp3",
       "title": "#Mani Meraj | Marne Ke Baad Pyar Hua | Vannu D Great | Shahbaz Khan | Chand Jee | New Sad Song",
       "artist": "Trimurti Music World",
       "bytes": 5368469,
@@ -115,31 +91,7 @@
       "sha256": "3ef1afe3f40e7a66c3491497074a4dc48d620a0b331a6eaae418c5ae9305c6d4"
     },
     {
-      "name": "15 - Bahubali Music World - #Video ｜ शराब से ख़राब ｜ #Tuntun_Yadav , #Goldi_Yadav ｜ Sharab Se Kharab ｜ New Bhojpuri Song - KerqjqgU-xI.mp3",
-      "title": "#Video | शराब से ख़राब | #Tuntun_Yadav , #Goldi_Yadav | Sharab Se Kharab | New Bhojpuri Song",
-      "artist": "Bahubali Music World",
-      "bytes": 5258155,
-      "duration_s": 182,
-      "sha256": "8f0ba8cd2e3357157d2e7a04b44923017321950d8ef541a9a808e1fe12181559"
-    },
-    {
-      "name": "16 - Play DMF - EK DEEWANE KI DEEWANIYAT - Official Teaser ｜ Harshvardhan, Sonam ｜ Milap Zaveri ｜ In Cinemas 21 OCT - dGb3acfZp2k.mp3",
-      "title": "EK DEEWANE KI DEEWANIYAT - Official Teaser | Harshvardhan, Sonam | Milap Zaveri | In Cinemas 21 OCT",
-      "artist": "Play DMF",
-      "bytes": 2856904,
-      "duration_s": 100,
-      "sha256": "82fd1db976eb3c6f8af5b5afda989a527982b32b56b778a27fb8bdf83e21d0d6"
-    },
-    {
-      "name": "17 - T-Series - The Ba＊＊＊ds Of Bollywood： Badli Si Hawa Hai (Song) ｜ Aryan ｜ Anirudh, Arijit, Amira｜ Lakshya, Sahher - uiaipIsX8g0.mp3",
-      "title": "The Ba***ds Of Bollywood: Badli Si Hawa Hai (Song) | Aryan | Anirudh, Arijit, Amira| Lakshya, Sahher",
-      "artist": "T-Series",
-      "bytes": 4040031,
-      "duration_s": 167,
-      "sha256": "cb896d648158d2b06a491d3e77433c23f3405e94bd199190913e7dea50f66e58"
-    },
-    {
-      "name": "18 - Hero Music - #Video ｜ SHOOTER ｜ #Tuntun Yadav, Goldi Yadav ｜ शूटर ｜ New Bhojpuri Rangdari Song 2025 - zGO0dk4Fr80.mp3",
+      "name": "12 - Hero Music - #Video ｜ SHOOTER ｜ #Tuntun Yadav, Goldi Yadav ｜ शूटर ｜ New Bhojpuri Rangdari Song 2025 - zGO0dk4Fr80.mp3",
       "title": "#Video | SHOOTER | #Tuntun Yadav, Goldi Yadav | शूटर | New Bhojpuri Rangdari Song 2025",
       "artist": "Hero Music",
       "bytes": 6046843,
@@ -147,7 +99,39 @@
       "sha256": "2d43406b5b07f6fdd1748ab169e7f380098696ffd350503a2cd22a9d11b87db6"
     },
     {
-      "name": "19 - SHUBH - Shubh - Balenci (Official Music Video) - nt5tXl9Vtug.mp3",
+      "name": "13 - Dhanda Nyoliwala - Dhanda Nyoliwala - Tension (Official Music Video) - bgGH0wcjUOA.mp3",
+      "title": "Dhanda Nyoliwala - Tension (Official Music Video)",
+      "artist": "Dhanda Nyoliwala",
+      "bytes": 4140230,
+      "duration_s": 193,
+      "sha256": "28bd7c98e630922eb640bc331ec877cf8a512d12e941a7beadcf7fc8fe2eb0f2"
+    },
+    {
+      "name": "14 - Bahubali Music World - #Video ｜ शराब से ख़राब ｜ #Tuntun_Yadav , #Goldi_Yadav ｜ Sharab Se Kharab ｜ New Bhojpuri Song - KerqjqgU-xI.mp3",
+      "title": "#Video | शराब से ख़राब | #Tuntun_Yadav , #Goldi_Yadav | Sharab Se Kharab | New Bhojpuri Song",
+      "artist": "Bahubali Music World",
+      "bytes": 5258155,
+      "duration_s": 182,
+      "sha256": "8f0ba8cd2e3357157d2e7a04b44923017321950d8ef541a9a808e1fe12181559"
+    },
+    {
+      "name": "15 - Think Music India - Pottala Muttaye ｜ Thalaivan Thalaivii ｜ Vijay Sethupathi,Nithya Menen ｜Pandiraaj ｜Santhosh Narayanan - sWT7S6T0Qzw.mp3",
+      "title": "Pottala Muttaye | Thalaivan Thalaivii | Vijay Sethupathi,Nithya Menen |Pandiraaj |Santhosh Narayanan",
+      "artist": "Think Music India",
+      "bytes": 4982079,
+      "duration_s": 257,
+      "sha256": "1b224c14f5053169a39e09a71e87f034f4a4e1d01f0b2f83427dd003bf468f11"
+    },
+    {
+      "name": "16 - Guru Randhawa - GURU RANDHAWA - ＂AZUL＂  MV - vB0V3iCSzQw.mp3",
+      "title": "GURU RANDHAWA - \"AZUL\"  MV",
+      "artist": "Guru Randhawa",
+      "bytes": 3710763,
+      "duration_s": 151,
+      "sha256": "4ac9abaa1bf4d75aa92ca10d3df8ba816120ff4708d97323503e1f7076626083"
+    },
+    {
+      "name": "17 - SHUBH - Shubh - Balenci (Official Music Video) - nt5tXl9Vtug.mp3",
       "title": "Shubh - Balenci (Official Music Video)",
       "artist": "SHUBH",
       "bytes": 3484209,
@@ -155,12 +139,28 @@
       "sha256": "64ee619edcb0a8fbb4a327f1eaa955ea508315f11fd8cf86feb42a4d9f70319a"
     },
     {
-      "name": "20 - Sandeep Surila - LANGUAGE PYAR KI [Tu Machli Me Pani Barga] Sandeep Surila ｜ Arvind Jangid ｜ Sakshi ｜ Haryanvi Song - vNz8t00ATyI.mp3",
-      "title": "LANGUAGE PYAR KI [Tu Machli Me Pani Barga] Sandeep Surila | Arvind Jangid | Sakshi | Haryanvi Song",
-      "artist": "Sandeep Surila",
-      "bytes": 4874224,
-      "duration_s": 214,
-      "sha256": "67ea00cc27a5bffd8c397856363038bb527888c214513f6235eb9afb55e02bca"
+      "name": "18 - T-Series - The Ba＊＊＊ds Of Bollywood： Badli Si Hawa Hai (Song) ｜ Aryan ｜ Anirudh, Arijit, Amira｜ Lakshya, Sahher - uiaipIsX8g0.mp3",
+      "title": "The Ba***ds Of Bollywood: Badli Si Hawa Hai (Song) | Aryan | Anirudh, Arijit, Amira| Lakshya, Sahher",
+      "artist": "T-Series",
+      "bytes": 4040031,
+      "duration_s": 167,
+      "sha256": "cb896d648158d2b06a491d3e77433c23f3405e94bd199190913e7dea50f66e58"
+    },
+    {
+      "name": "19 - Karan Aujla - Karan Aujla ｜ Ikky - HIM. (Official Audio) - _eoYsV5RwyA.mp3",
+      "title": "Karan Aujla | Ikky - HIM. (Official Audio)",
+      "artist": "Karan Aujla",
+      "bytes": 4106711,
+      "duration_s": 191,
+      "sha256": "8e723bd501f947704eb87f2d1f7072413cdf11327bdeebd00f66ec00b0c5688c"
+    },
+    {
+      "name": "20 - Karan Aujla - Karan Aujla ｜ Ikky - I'ma Do My Thiiing (Official Audio) - p9Y2J02JYTA.mp3",
+      "title": "Karan Aujla | Ikky - I'ma Do My Thiiing (Official Audio)",
+      "artist": "Karan Aujla",
+      "bytes": 4172778,
+      "duration_s": 193,
+      "sha256": "23bc558f1ee055dad44d476e5307fce7e923e29978bc95dc01458b85f9d7b414"
     }
   ]
 }
