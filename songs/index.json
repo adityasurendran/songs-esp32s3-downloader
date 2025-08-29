@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2025-08-28T04:24:30Z",
+  "updated_utc": "2025-08-29T04:24:37Z",
   "base_url": "https://raw.githubusercontent.com/adityasurendran/songs-esp32s3-downloader/main/songs/",
   "tracks": [
     {
@@ -11,31 +11,23 @@
       "sha256": "f4a55112bf6472f300793ef6c8a1c7ad63ad30f94dcbff9725a2d4f4ec9fec18"
     },
     {
-      "name": "02 - Sony Music South - Love Insurance Kompany (LIK - Tamil) ｜ First Punch ｜ Pradeep Ranganathan ｜ Vignesh Shivan ｜ Anirudh - TnupaGUj1R8.mp3",
-      "title": "Love Insurance Kompany (LIK - Tamil) | First Punch | Pradeep Ranganathan | Vignesh Shivan | Anirudh",
+      "name": "02 - Sony Music South - They Call Him OG - Suvvi Suvvi Lyric Video ｜ Pawan Kalyan ｜ Sujeeth ｜ Thaman S ｜ DVV Danayya - k0zdnRfRfG8.mp3",
+      "title": "They Call Him OG - Suvvi Suvvi Lyric Video | Pawan Kalyan | Sujeeth | Thaman S | DVV Danayya",
       "artist": "Sony Music South",
-      "bytes": 3586980,
-      "duration_s": 111,
-      "sha256": "a07a27e37eb3312e2e6e83f06dd30085230479b20108f708f67d58e72d60a434"
+      "bytes": 5375094,
+      "duration_s": 281,
+      "sha256": "5353acbdc8ac4730ec9538779458d513c8abdae7008cd54e37491b21c96548bf"
     },
     {
       "name": "03 - YRF - Janaab-e-Aali ｜ Full Song ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam, Sachet Tandon, Saaj Bhatt, Amitabh - 9l5QY7BJmHQ.mp3",
       "title": "Janaab-e-Aali | Full Song | WAR 2 | Hrithik Roshan, NTR | Pritam, Sachet Tandon, Saaj Bhatt, Amitabh",
       "artist": "YRF",
-      "bytes": 4939157,
+      "bytes": 4946399,
       "duration_s": 216,
-      "sha256": "7e2e277190913bb995805ae8846f0ce844c190c4cfcde8acd37f3f7d941378a9"
+      "sha256": "a88ce2ce264443284ca071ede0051a878ccd5f79aa4e76215fec3e54070c4034"
     },
     {
-      "name": "04 - Sony Music South - They Call Him OG - Suvvi Suvvi Lyric Video ｜ Pawan Kalyan ｜ Sujeeth ｜ Thaman S ｜ DVV Danayya - k0zdnRfRfG8.mp3",
-      "title": "They Call Him OG - Suvvi Suvvi Lyric Video | Pawan Kalyan | Sujeeth | Thaman S | DVV Danayya",
-      "artist": "Sony Music South",
-      "bytes": 5376696,
-      "duration_s": 281,
-      "sha256": "54c8b796efb5a5ff3e918c3afff98d92701f979e0dfc98271b67b398a4ab0898"
-    },
-    {
-      "name": "05 - Rehaan Records - For A Reason (Official Video) Karan Aujla ｜ Tania  ｜ Ikky ｜ Latest Punjabi Songs 2025 - -YlmnPh-6rE.mp3",
+      "name": "04 - Rehaan Records - For A Reason (Official Video) Karan Aujla ｜ Tania  ｜ Ikky ｜ Latest Punjabi Songs 2025 - -YlmnPh-6rE.mp3",
       "title": "For A Reason (Official Video) Karan Aujla | Tania  | Ikky | Latest Punjabi Songs 2025",
       "artist": "Rehaan Records",
       "bytes": 4481364,
@@ -43,15 +35,15 @@
       "sha256": "2e9edcaf51b7b9b59a6555767979ad283c583c4377c90a8c9807f31bd5d36fa2"
     },
     {
-      "name": "06 - T-Series Bollywood Classics - Aala Re Aala Ganesha Song ｜ Daddy ｜ Ganesh Chaturthi Special 2025  ｜ Wajid, Dr. Ganesh Chandanshive - Lom0TlENCU4.mp3",
-      "title": "Aala Re Aala Ganesha Song | Daddy | Ganesh Chaturthi Special 2025  | Wajid, Dr. Ganesh Chandanshive",
-      "artist": "T-Series Bollywood Classics",
-      "bytes": 6154322,
-      "duration_s": 332,
-      "sha256": "96ac0c667acbfe352ee44bd3d7220580ef55743aed3ea666a2da42e373467f15"
+      "name": "05 - Mahi Movies Presents  - #video ｜ सईयाँ सेवा करे ｜ #Pawan Singh ｜ Saiyan Seva Kare ｜ #Shilpi Raj ｜ New Bhojpuri Song 2025 - X8X-XyK4CYE.mp3",
+      "title": "#video | सईयाँ सेवा करे | #Pawan Singh | Saiyan Seva Kare | #Shilpi Raj | New Bhojpuri Song 2025",
+      "artist": "Mahi Movies Presents ",
+      "bytes": 4919617,
+      "duration_s": 181,
+      "sha256": "88ce8f89e1efd6249ffd876029f0908e6df23e010d2950953b52c2808fb3d660"
     },
     {
-      "name": "07 - Diler Kharkiya - Aalu Matar (Official Music Video) Diler Kharkiya ｜ Anjali Raghav ｜ New Haryanvi Song 2025 - 6RDduhS0K6E.mp3",
+      "name": "06 - Diler Kharkiya - Aalu Matar (Official Music Video) Diler Kharkiya ｜ Anjali Raghav ｜ New Haryanvi Song 2025 - 6RDduhS0K6E.mp3",
       "title": "Aalu Matar (Official Music Video) Diler Kharkiya | Anjali Raghav | New Haryanvi Song 2025",
       "artist": "Diler Kharkiya",
       "bytes": 3399920,
@@ -59,47 +51,23 @@
       "sha256": "be14c9b615ae26d644e458d67d8729a167a5055532e7624cef761db30e3315d4"
     },
     {
-      "name": "08 - YRF Telugu - Salam Anali ｜ Full Song ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam ｜ Nakash Aziz, Yazin Nizar ｜ Krishna - gim5p_kpKaM.mp3",
-      "title": "Salam Anali | Full Song | WAR 2 | Hrithik Roshan, NTR | Pritam | Nakash Aziz, Yazin Nizar | Krishna",
-      "artist": "YRF Telugu",
-      "bytes": 5147816,
-      "duration_s": 216,
-      "sha256": "acf4550bd4f1273e81e9d720dc9ef1af88f30bedb16d20dbdcd8ad6d24735854"
+      "name": "07 - T-Series Bollywood Classics - Aala Re Aala Ganesha Song ｜ Daddy ｜ Ganesh Chaturthi Special 2025  ｜ Wajid, Dr. Ganesh Chandanshive - Lom0TlENCU4.mp3",
+      "title": "Aala Re Aala Ganesha Song | Daddy | Ganesh Chaturthi Special 2025  | Wajid, Dr. Ganesh Chandanshive",
+      "artist": "T-Series Bollywood Classics",
+      "bytes": 6154322,
+      "duration_s": 332,
+      "sha256": "96ac0c667acbfe352ee44bd3d7220580ef55743aed3ea666a2da42e373467f15"
     },
     {
-      "name": "09 - Universal Music India - Danger - Param Sundari ｜ Sidharth M, Janhvi K ｜ Sachin-Jigar, Vishal Dadlani, Parvati M, Amitabh B - obBcRhl57Zg.mp3",
-      "title": "Danger - Param Sundari | Sidharth M, Janhvi K | Sachin-Jigar, Vishal Dadlani, Parvati M, Amitabh B",
-      "artist": "Universal Music India",
-      "bytes": 4571243,
-      "duration_s": 158,
-      "sha256": "b14e86d069cd0aecc5da457c9cbb02bd5c43ad8ad7222b6ce74662c1bebfc6f0"
+      "name": "08 - Vats Bhakti Geet - गणपती आरती Ganpati Aarti - सुखकर्ता दुखहर्ता Sukhkarta Dukhharta Full Aarti ｜ Ganpatichi Aarti - r94uXv7Swac.mp3",
+      "title": "गणपती आरती Ganpati Aarti - सुखकर्ता दुखहर्ता Sukhkarta Dukhharta Full Aarti | Ganpatichi Aarti",
+      "artist": "Vats Bhakti Geet",
+      "bytes": 4340474,
+      "duration_s": 173,
+      "sha256": "7f79485a3681042365469ec115884c48136477bb4d9e0d4c0c3a4fc6b1c9ab12"
     },
     {
-      "name": "10 - T-Series - Pyaar Mein Hain Hum (Video Song)： Pawan Singh ｜ Zareen Khan ｜ Payal Dev ｜ Kunaal Vermaa ｜ Bhushan K - TKyDCwRQMLg.mp3",
-      "title": "Pyaar Mein Hain Hum (Video Song): Pawan Singh | Zareen Khan | Payal Dev | Kunaal Vermaa | Bhushan K",
-      "artist": "T-Series",
-      "bytes": 5220253,
-      "duration_s": 217,
-      "sha256": "1a9aad315b7e3d44bc37171b339cde54a0912029f64cc537e0f96eabef5a493d"
-    },
-    {
-      "name": "11 - RD Music & Records - GANRAYA (Official Video) ｜ Fukra Insaan ｜ Snigdhajit Bhowmik ｜ Ankush ｜ Santosh T ｜Ganpati Song 2025 - 8LBjCghCyvA.mp3",
-      "title": "GANRAYA (Official Video) | Fukra Insaan | Snigdhajit Bhowmik | Ankush | Santosh T |Ganpati Song 2025",
-      "artist": "RD Music & Records",
-      "bytes": 5188358,
-      "duration_s": 226,
-      "sha256": "572fc306141106586acce3132517d85f74fb6f2e082d66ce9e401824bb97cc65"
-    },
-    {
-      "name": "12 - Music Records Bhojpuri - पिया जी के प्यार 2025 का तीज त्यौहार गीत ｜ Dinesh Lal ｜ Bhojpuri Teej Song ｜ #teejspecial #2025 - Kk7wXviPwyQ.mp3",
-      "title": "पिया जी के प्यार 2025 का तीज त्यौहार गीत | Dinesh Lal | Bhojpuri Teej Song | #teejspecial #2025",
-      "artist": "Music Records Bhojpuri",
-      "bytes": 5016720,
-      "duration_s": 301,
-      "sha256": "8ed2dcb416cef8e122f0e8fb132d49036f8cb2f5a2a1d4711a04d9391df3f032"
-    },
-    {
-      "name": "13 - Think Music Telugu - Om Namo Bhagavate Vasudevaya Video Song -Telugu ｜ Mahavatar Narsimha ｜ Hombale Films ｜ Sam CS - xHrk9qfOz-A.mp3",
+      "name": "09 - Think Music Telugu - Om Namo Bhagavate Vasudevaya Video Song -Telugu ｜ Mahavatar Narsimha ｜ Hombale Films ｜ Sam CS - xHrk9qfOz-A.mp3",
       "title": "Om Namo Bhagavate Vasudevaya Video Song -Telugu | Mahavatar Narsimha | Hombale Films | Sam CS",
       "artist": "Think Music Telugu",
       "bytes": 4735356,
@@ -107,7 +75,55 @@
       "sha256": "f9c741928f25124db81f58d5853d7a0272f6be8b010e719cdba23c4ab8426187"
     },
     {
-      "name": "14 - Hero Music - #Video ｜ SHOOTER ｜ #Tuntun Yadav, Goldi Yadav ｜ शूटर ｜ New Bhojpuri Rangdari Song 2025 - zGO0dk4Fr80.mp3",
+      "name": "10 - Wings Marathi - रडू नको बाळा घरी गणपती आणते ｜ Radu Nako Bala Ghari Ganpati Aanate ｜ Ganpati Song ｜ Ganpati Gani 2025 - XLSa84JPDks.mp3",
+      "title": "रडू नको बाळा घरी गणपती आणते | Radu Nako Bala Ghari Ganpati Aanate | Ganpati Song | Ganpati Gani 2025",
+      "artist": "Wings Marathi",
+      "bytes": 5400738,
+      "duration_s": 240,
+      "sha256": "9878088eaaf668e4be69c03ba508d08fefd54cc7f4ca0573467370e0b7275a71"
+    },
+    {
+      "name": "11 - YRF Telugu - Salam Anali ｜ Full Song ｜ WAR 2 ｜ Hrithik Roshan, NTR ｜ Pritam ｜ Nakash Aziz, Yazin Nizar ｜ Krishna - gim5p_kpKaM.mp3",
+      "title": "Salam Anali | Full Song | WAR 2 | Hrithik Roshan, NTR | Pritam | Nakash Aziz, Yazin Nizar | Krishna",
+      "artist": "YRF Telugu",
+      "bytes": 5147816,
+      "duration_s": 216,
+      "sha256": "acf4550bd4f1273e81e9d720dc9ef1af88f30bedb16d20dbdcd8ad6d24735854"
+    },
+    {
+      "name": "12 - Universal Music India - Danger - Param Sundari ｜ Sidharth M, Janhvi K ｜ Sachin-Jigar, Vishal Dadlani, Parvati M, Amitabh B - obBcRhl57Zg.mp3",
+      "title": "Danger - Param Sundari | Sidharth M, Janhvi K | Sachin-Jigar, Vishal Dadlani, Parvati M, Amitabh B",
+      "artist": "Universal Music India",
+      "bytes": 4571243,
+      "duration_s": 158,
+      "sha256": "b14e86d069cd0aecc5da457c9cbb02bd5c43ad8ad7222b6ce74662c1bebfc6f0"
+    },
+    {
+      "name": "13 - RD Music & Records - GANRAYA (Official Video) ｜ Fukra Insaan ｜ Snigdhajit Bhowmik ｜ Ankush ｜ Santosh T ｜Ganpati Song 2025 - 8LBjCghCyvA.mp3",
+      "title": "GANRAYA (Official Video) | Fukra Insaan | Snigdhajit Bhowmik | Ankush | Santosh T |Ganpati Song 2025",
+      "artist": "RD Music & Records",
+      "bytes": 5188358,
+      "duration_s": 226,
+      "sha256": "572fc306141106586acce3132517d85f74fb6f2e082d66ce9e401824bb97cc65"
+    },
+    {
+      "name": "14 - Think Music India - Oorum Blood ｜ Dude ｜ Pradeep Ranganathan, Mamitha Baiju ｜ @SaiAbhyankkar ｜ Paal Dabba ｜Keerthiswaran - 4Bsc2uI_LsM.mp3",
+      "title": "Oorum Blood | Dude | Pradeep Ranganathan, Mamitha Baiju | @SaiAbhyankkar | Paal Dabba |Keerthiswaran",
+      "artist": "Think Music India",
+      "bytes": 5950125,
+      "duration_s": 268,
+      "sha256": "f2b83fcbee4a9476c55c8679a190eed25bf6809c28090711d55f556994a85952"
+    },
+    {
+      "name": "15 - T-Series - Pyaar Mein Hain Hum (Video Song)： Pawan Singh ｜ Zareen Khan ｜ Payal Dev ｜ Kunaal Vermaa ｜ Bhushan K - TKyDCwRQMLg.mp3",
+      "title": "Pyaar Mein Hain Hum (Video Song): Pawan Singh | Zareen Khan | Payal Dev | Kunaal Vermaa | Bhushan K",
+      "artist": "T-Series",
+      "bytes": 5220253,
+      "duration_s": 217,
+      "sha256": "1a9aad315b7e3d44bc37171b339cde54a0912029f64cc537e0f96eabef5a493d"
+    },
+    {
+      "name": "16 - Hero Music - #Video ｜ SHOOTER ｜ #Tuntun Yadav, Goldi Yadav ｜ शूटर ｜ New Bhojpuri Rangdari Song 2025 - zGO0dk4Fr80.mp3",
       "title": "#Video | SHOOTER | #Tuntun Yadav, Goldi Yadav | शूटर | New Bhojpuri Rangdari Song 2025",
       "artist": "Hero Music",
       "bytes": 5816650,
@@ -115,7 +131,7 @@
       "sha256": "c6bbe44c1030803204239505190f53a3b961e6a82167b73b0a77744ad7fb572c"
     },
     {
-      "name": "15 - Naaz Music - Mar Jau Teri Mohabbat Me ｜ Official Video ｜ Farmani Naaz ｜ Anil Rawat ｜ Mohit ｜ Anjali ｜.Naaz Music - CMyzDtg0nws.mp3",
+      "name": "17 - Naaz Music - Mar Jau Teri Mohabbat Me ｜ Official Video ｜ Farmani Naaz ｜ Anil Rawat ｜ Mohit ｜ Anjali ｜.Naaz Music - CMyzDtg0nws.mp3",
       "title": "Mar Jau Teri Mohabbat Me | Official Video | Farmani Naaz | Anil Rawat | Mohit | Anjali |.Naaz Music",
       "artist": "Naaz Music",
       "bytes": 4627606,
@@ -123,44 +139,28 @@
       "sha256": "ed74d2ed70e0a3d3836db77537dd8bbf6e5e8d74f98421d3adf409b30404fa3d"
     },
     {
-      "name": "16 - Aashish Yadav Entertainment - #Video - कि हौ बचले गे - #Ashish Yadav & #Shweta Sargam का आ गया एक और ब्लास्ट गाना - #Magahi Song - u7DhinNA5mY.mp3",
-      "title": "#Video - कि हौ बचले गे - #Ashish Yadav & #Shweta Sargam का आ गया एक और ब्लास्ट गाना - #Magahi Song",
-      "artist": "Aashish Yadav Entertainment",
-      "bytes": 5757098,
-      "duration_s": 230,
-      "sha256": "d56ab5a65c8a7f6cbb5fbb8bf318e668b365f2be2af5b305109e307b2ff416df"
+      "name": "18 - Marathi Gaurav - गणेश चतुर्थी स्पेशल： Parvatichya Bala गणपती माझा नाचत आला ｜ Ganpati Video Song ｜ गणपतीची गाणी - dpXKFaqrqzA.mp3",
+      "title": "गणेश चतुर्थी स्पेशल: Parvatichya Bala गणपती माझा नाचत आला | Ganpati Video Song | गणपतीची गाणी",
+      "artist": "Marathi Gaurav",
+      "bytes": 6317302,
+      "duration_s": 382,
+      "sha256": "4b8e9e9f1114e9968fa14ad59a36079646863800c08e14d8705a8503d47b0501"
     },
     {
-      "name": "17 - T-Series - Baaghi 4： Guzaara (Song) ｜ Tiger Shroff, Harnaaz ｜ Josh Brar, Parampara, Kumaar ｜ Sajid N, A. Harsha - iMi-Cb8RisY.mp3",
-      "title": "Baaghi 4: Guzaara (Song) | Tiger Shroff, Harnaaz | Josh Brar, Parampara, Kumaar | Sajid N, A. Harsha",
+      "name": "19 - T-Series - Mourya Re 8K Full Song ｜ DON ｜ Shahrukh Khan ｜ Shankar Mahadevan ｜ Morya Re ｜ Ganesh Chaturthi - GrVOG4POsko.mp3",
+      "title": "Mourya Re 8K Full Song | DON | Shahrukh Khan | Shankar Mahadevan | Morya Re | Ganesh Chaturthi",
       "artist": "T-Series",
-      "bytes": 4646169,
-      "duration_s": 195,
-      "sha256": "398a493af9caca15e2efd55cf102013200f36e98a0a188b6a095774a8c5a4c54"
+      "bytes": 6235698,
+      "duration_s": 269,
+      "sha256": "f8951df8adf413740ee81c5f187e95593ff63e8943c5002b2c293a018e2b1577"
     },
     {
-      "name": "18 - Anand Audio - Bangle Bangari 4K Video Song ｜ EKKA ｜ Yuva Rajkumar ｜ Rohit Padaki ｜ Charan raj ｜ Sanjana Anand - K6wNzY5MIWs.mp3",
-      "title": "Bangle Bangari 4K Video Song | EKKA | Yuva Rajkumar | Rohit Padaki | Charan raj | Sanjana Anand",
-      "artist": "Anand Audio",
-      "bytes": 5233644,
-      "duration_s": 208,
-      "sha256": "88cce3a999bea7ab1882fb30935c1731b12d5ba0779b619c8a143c35b823c2be"
-    },
-    {
-      "name": "19 - Susmita Paswan Official - #पारम्परिक तीज व्रत गीत 2025 ｜ घरे तीज बईठली गे माई #Teej Ke Geet ｜ Susmita Paswan Teej Puja Geet - iN7SVHfH98s.mp3",
-      "title": "#पारम्परिक तीज व्रत गीत 2025 | घरे तीज बईठली गे माई #Teej Ke Geet | Susmita Paswan Teej Puja Geet",
-      "artist": "Susmita Paswan Official",
-      "bytes": 6623954,
-      "duration_s": 279,
-      "sha256": "f8a0ba8cd3346a99acff959db515deb120e8f6a116a39e7faad766d9cbb430e8"
-    },
-    {
-      "name": "20 - Karan Aujla - Karan Aujla ｜ Ikky - HIM. (Official Audio) - _eoYsV5RwyA.mp3",
-      "title": "Karan Aujla | Ikky - HIM. (Official Audio)",
-      "artist": "Karan Aujla",
-      "bytes": 4106711,
-      "duration_s": 191,
-      "sha256": "8e723bd501f947704eb87f2d1f7072413cdf11327bdeebd00f66ec00b0c5688c"
+      "name": "20 - Music Records Bhojpuri - पिया जी के प्यार 2025 का तीज त्यौहार गीत ｜ Dinesh Lal ｜ Bhojpuri Teej Song ｜ #teejspecial #2025 - Kk7wXviPwyQ.mp3",
+      "title": "पिया जी के प्यार 2025 का तीज त्यौहार गीत | Dinesh Lal | Bhojpuri Teej Song | #teejspecial #2025",
+      "artist": "Music Records Bhojpuri",
+      "bytes": 5016976,
+      "duration_s": 301,
+      "sha256": "3df4eab946a7efea746d22ac751638e1dc120c7c1bc034412ca67a8b3183f0ce"
     }
   ]
 }
